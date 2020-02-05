@@ -1,0 +1,5 @@
+[AD Thread Pool-ProxyControlReq0] 30 Jan 2020 15:39:01,709  INFO com.singularity.dynamicservice.DynamicServiceManager - Scheduling DynamicServiceManager at interval of 30 seconds
+[AD Thread Pool-Global0] 30 Jan 2020 15:39:31,710  INFO com.singularity.dynamicservice.DynamicServiceManager - Using services directories [/myspace/appdynamics-4.5.8/proxy/external-services, /myspace/appdynamics-4.5.8/proxy/external-services/proc1]
+[AD Thread Pool-Global0] 30 Jan 2020 15:39:31,710  INFO com.singularity.dynamicservice.DynamicServiceManager - Mbean registration failed or not ready
+[AD Thread Pool-Global0] 30 Jan 2020 15:41:31,709  WARN com.singularity.dynamicservice.DynamicServiceManager - 5 Mbean registration attempts have failed
+[AD Thread Pool-Global0] 30 Jan 2020 15:47:31,714  INFO com.singularity.dynamicservice.DynamicServiceMBeanManager - MBean AppDynamics:type=DynamicServiceManager.1 is registered

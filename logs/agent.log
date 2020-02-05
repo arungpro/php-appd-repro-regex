@@ -1,0 +1,176 @@
+AppDynamics PHP Agent 4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe PHP-5.6.37-1+ubuntu14.04.1+deb.sury.org+1 681
+2019-12-24 12:01:49.942 UTC INFO   681 [agent.AgentKernel] starting up agent kernel [4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe]
+2019-12-24 12:01:49.943 UTC INFO  proc1 681 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:01:50.097 UTC INFO  proc1 681 [agent.ZMQControlTransport] received start node response, size: 45 bytes
+2019-12-24 12:01:50.099 UTC ERROR proc1 681 [config.ConfigChannel] could not send config request
+2019-12-24 12:01:50.538 UTC INFO  proc1 681 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:01:50.541 UTC ERROR proc1 681 [config.ConfigChannel] could not send config request
+2019-12-24 12:01:50.542 UTC INFO   684 [agent.AgentKernel] starting up agent kernel [4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe]
+2019-12-24 12:01:50.544 UTC INFO  proc1 684 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:01:50.549 UTC INFO  proc1 684 [agent.ZMQControlTransport] received start node response, size: 45 bytes
+2019-12-24 12:01:50.552 UTC ERROR proc1 684 [config.ConfigChannel] could not send config request
+2019-12-24 12:01:50.583 UTC INFO   690 [agent.AgentKernel] starting up agent kernel [4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe]
+2019-12-24 12:01:50.584 UTC INFO  proc1 690 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:01:50.591 UTC INFO  proc1 690 [agent.ZMQControlTransport] received start node response, size: 45 bytes
+2019-12-24 12:01:50.594 UTC ERROR proc1 690 [config.ConfigChannel] could not send config request
+2019-12-24 12:01:55.951 UTC INFO  proc1 690 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:01:57.662 UTC INFO  proc1 690 [config.ZMQConfigTransport] received config response for request ID -995512089214068428
+2019-12-24 12:01:57.664 UTC INFO  proc1 690 [config.ConfigChannel] going into INITIALIZED state
+2019-12-24 12:01:57.708 UTC WARN  proc1 690 [agent.ZMQBTInfoTransport] timed out (10000us) waiting for response to -5055584514113111383.  Actual wait time: 10328us
+2019-12-24 12:01:57.708 UTC WARN  proc1 690 [report.TransactionReporter] did not receive BTInfoResponse, not attaching snapshot
+2019-12-24 12:01:57.712 UTC INFO  proc1 690 [report.TransactionReporter] BT details sent: /phpmyadmin/phpmyadmin.css.php[0], time: 34, error: 0, snapshot: 0, requestID: -5055584514113111383
+2019-12-24 12:01:57.897 UTC INFO   960 [agent.AgentKernel] starting up agent kernel [4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe]
+2019-12-24 12:01:57.898 UTC INFO  proc1 960 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:01:58.120 UTC INFO  proc1 960 [agent.ZMQControlTransport] received start node response, size: 1676 bytes
+2019-12-24 12:01:58.302 UTC INFO  proc1 960 [config.ZMQConfigTransport] received config response for request ID -5825308548272293940
+2019-12-24 12:01:58.303 UTC INFO  proc1 960 [config.ConfigChannel] going into INITIALIZED state
+2019-12-24 12:01:58.415 UTC INFO  proc1 960 [report.TransactionReporter] BT details sent: /phpmyadmin/navigation.php[0], time: 109, error: 0, snapshot: 0, requestID: -2037282061455582029
+2019-12-24 12:01:58.516 UTC INFO  proc1 690 [report.TransactionReporter] BT details sent: /phpmyadmin/ajax.php[0], time: 210, error: 0, snapshot: 0, requestID: -5299376259475150041
+2019-12-24 12:01:58.714 UTC INFO  proc1 690 [report.TransactionReporter] BT details sent: /phpmyadmin/ajax.php[0], time: 147, error: 0, snapshot: 0, requestID: 7176246185508654033
+2019-12-24 12:01:58.782 UTC ERROR proc1 960 [tx.AExitPointDelegate] Invalid regex in StringMatchCondition: /^()
+2019-12-24 12:02:00.487 UTC INFO  proc1 960 [report.TransactionReporter] BT details sent: /phpmyadmin/version_check.php[0], time: 1907, error: 0, snapshot: 0, requestID: 8059899590170049093
+2019-12-24 12:02:01.838 UTC INFO  proc1 690 [report.TransactionReporter] BT details sent: /phpmyadmin/server_databases.php[0], time: 2228, error: 0, snapshot: 0, requestID: 5981153179435313348
+2019-12-24 12:02:04.381 UTC INFO   958 [agent.AgentKernel] starting up agent kernel [4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe]
+2019-12-24 12:02:04.382 UTC INFO  proc1 958 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:02:04.388 UTC INFO  proc1 958 [agent.ZMQControlTransport] received start node response, size: 1832 bytes
+2019-12-24 12:02:04.391 UTC INFO  proc1 958 [config.ZMQConfigTransport] received config response for request ID -6735245699363583573
+2019-12-24 12:02:04.393 UTC INFO  proc1 958 [config.ConfigChannel] going into INITIALIZED state
+2019-12-24 12:02:04.552 UTC INFO  proc1 958 [report.TransactionReporter] BT details sent: /phpmyadmin/server_databases.php[1515178], time: 156, error: 0, snapshot: 0, requestID: -3014862207450382593
+2019-12-24 12:02:04.814 UTC INFO  proc1 960 [report.TransactionReporter] BT details sent: /phpmyadmin/db_structure.php[0], time: 250, error: 0, snapshot: 0, requestID: 5620698301486451669
+2019-12-24 12:02:04.977 UTC INFO  proc1 958 [report.TransactionReporter] BT details sent: /phpmyadmin/navigation.php[1515174], time: 412, error: 0, snapshot: 0, requestID: -8522257079618639270
+2019-12-24 12:02:05.116 UTC INFO  proc1 958 [report.TransactionReporter] BT details sent: /phpmyadmin/navigation.php[1515174], time: 126, error: 0, snapshot: 0, requestID: 2107718788435347261
+2019-12-24 12:02:13.268 UTC INFO  proc1 958 [report.TransactionReporter] BT details sent: /phpmyadmin/tbl_create.php[0], time: 3000, error: 1, snapshot: 1, requestID: 2448419870993246649
+2019-12-24 12:02:27.447 UTC INFO   955 [agent.AgentKernel] starting up agent kernel [4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe]
+2019-12-24 12:02:27.448 UTC INFO  proc1 955 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:02:27.451 UTC INFO  proc1 955 [agent.ZMQControlTransport] received start node response, size: 1910 bytes
+2019-12-24 12:02:27.673 UTC INFO  proc1 955 [config.ZMQConfigTransport] received config response for request ID -9045104529126738660
+2019-12-24 12:02:27.674 UTC INFO  proc1 955 [config.ConfigChannel] going into INITIALIZED state
+2019-12-24 12:02:27.776 UTC INFO  proc1 955 [report.TransactionReporter] BT details sent: /phpmyadmin/tbl_create.php[1515251], time: 99, error: 1, snapshot: 1, requestID: -3014405794977809765
+2019-12-24 12:02:27.821 UTC INFO   959 [agent.AgentKernel] starting up agent kernel [4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe]
+2019-12-24 12:02:27.822 UTC INFO  proc1 690 [config.ConfigChannel] sending config request with version 1577188912429
+2019-12-24 12:02:27.823 UTC INFO  proc1 959 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:02:27.835 UTC INFO  proc1 959 [agent.ZMQControlTransport] received start node response, size: 1910 bytes
+2019-12-24 12:02:29.594 UTC INFO  proc1 955 [report.TransactionReporter] BT details sent: /phpmyadmin/db_structure.php[1526680], time: 1806, error: 0, snapshot: 0, requestID: 5517103665620471619
+2019-12-24 12:02:33.177 UTC INFO  proc1 690 [report.TransactionReporter] BT details sent: /phpmyadmin/tbl_structure.php[0], time: 5351, error: 0, snapshot: 0, requestID: -5164071569837341245
+2019-12-24 12:02:41.365 UTC INFO  proc1 681 [agent] module shutdown start
+2019-12-24 12:02:41.366 UTC ERROR proc1 681 [agent] Unable to remove exit opcode handler! Current Handler: 0
+2019-12-24 12:02:41.366 UTC INFO  proc1 681 [agent] module shutdown end
+2019-12-24 12:02:42.316 UTC INFO   944 [agent.AgentKernel] starting up agent kernel [4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe]
+2019-12-24 12:02:42.317 UTC INFO  proc1 944 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:02:42.321 UTC INFO  proc1 944 [agent.ZMQControlTransport] received start node response, size: 1951 bytes
+2019-12-24 12:02:42.328 UTC INFO  proc1 944 [config.ZMQConfigTransport] received config response for request ID -2854058272939370676
+2019-12-24 12:02:42.329 UTC INFO  proc1 944 [config.ConfigChannel] going into INITIALIZED state
+2019-12-24 12:02:42.342 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 4, error: 0, snapshot: 0, requestID: 8029804821324378733
+2019-12-24 12:02:43.691 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 5150589987107097419
+2019-12-24 12:02:43.874 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 3285638775578264394
+2019-12-24 12:02:44.041 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -8862083019151799125
+2019-12-24 12:02:44.201 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 6119029810997975491
+2019-12-24 12:02:44.377 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 4752403417494909258
+2019-12-24 12:02:44.550 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 2, error: 0, snapshot: 0, requestID: -3089464312961600814
+2019-12-24 12:02:44.809 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 4634176504466836465
+2019-12-24 12:02:44.982 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -7132208676515018273
+2019-12-24 12:02:45.154 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 2, error: 0, snapshot: 0, requestID: 6251740556162783668
+2019-12-24 12:02:45.349 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 0, error: 0, snapshot: 0, requestID: -4668568658802387530
+2019-12-24 12:02:45.509 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -6738153728709041461
+2019-12-24 12:02:45.707 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -5060093808275239725
+2019-12-24 12:02:45.875 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 0, error: 0, snapshot: 0, requestID: 3050198158176446816
+2019-12-24 12:02:46.062 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 155747292802393330
+2019-12-24 12:02:46.239 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 0, error: 0, snapshot: 0, requestID: -3200008459747444916
+2019-12-24 12:02:46.421 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 3282070229725225729
+2019-12-24 12:02:46.617 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 3, error: 0, snapshot: 0, requestID: 2672400252283899643
+2019-12-24 12:02:46.810 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 3, error: 0, snapshot: 0, requestID: -7809606883183241283
+2019-12-24 12:02:47.008 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 2, error: 0, snapshot: 0, requestID: 2683137590052436036
+2019-12-24 12:02:47.181 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 2869871309850125411
+2019-12-24 12:02:47.345 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 8010510467631955947
+2019-12-24 12:02:47.513 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -6497865954566761233
+2019-12-24 12:02:47.665 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 3, error: 0, snapshot: 0, requestID: 1781953564420906718
+2019-12-24 12:02:47.827 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 2, error: 0, snapshot: 0, requestID: 1615413970078037522
+2019-12-24 12:02:48.004 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -114020307695969353
+2019-12-24 12:02:48.181 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 2, error: 0, snapshot: 0, requestID: 8697035615038759376
+2019-12-24 12:02:48.362 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -8775953776946016384
+2019-12-24 12:02:48.604 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 2, error: 0, snapshot: 0, requestID: -6524233279652676913
+2019-12-24 12:02:48.783 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 2, error: 0, snapshot: 0, requestID: -5066382793881369194
+2019-12-24 12:02:48.938 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 1921936427401092568
+2019-12-24 12:02:49.117 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 3003569764948476490
+2019-12-24 12:02:49.232 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -6555640612431557031
+2019-12-24 12:02:49.399 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -2521612471879484586
+2019-12-24 12:02:49.572 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 5, error: 0, snapshot: 0, requestID: -5165403053532843901
+2019-12-24 12:02:49.730 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 4, error: 0, snapshot: 0, requestID: 6226357685729781210
+2019-12-24 12:02:49.892 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 4, error: 0, snapshot: 0, requestID: -1473619407377854832
+2019-12-24 12:02:50.044 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 3, error: 0, snapshot: 0, requestID: 8230226984502787013
+2019-12-24 12:02:50.212 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 2, error: 0, snapshot: 0, requestID: -5835739741022394487
+2019-12-24 12:02:50.396 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 2, error: 0, snapshot: 0, requestID: -6974594114351257369
+2019-12-24 12:02:50.550 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 0, error: 0, snapshot: 0, requestID: -6693034614957633816
+2019-12-24 12:02:50.728 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 8454970262717743451
+2019-12-24 12:02:50.909 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 6917103560440061796
+2019-12-24 12:02:51.070 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -3753735281004375949
+2019-12-24 12:02:51.253 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 2, error: 0, snapshot: 0, requestID: 860532344653422308
+2019-12-24 12:02:51.414 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 0, error: 0, snapshot: 0, requestID: -484568068776104409
+2019-12-24 12:02:51.603 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: -7042405135028583456
+2019-12-24 12:02:51.778 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 1, error: 0, snapshot: 0, requestID: 2005937631870048585
+2019-12-24 12:02:51.968 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[0], time: 0, error: 0, snapshot: 0, requestID: -3786280129251578851
+2019-12-24 12:02:52.152 UTC INFO  proc1 944 [config.ConfigChannel] sending config request with version 1577188912437
+2019-12-24 12:02:52.153 UTC INFO  proc1 944 [config.ZMQConfigTransport] received config response for request ID -8935203748189311900
+2019-12-24 12:02:52.156 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: 8514004878093038764
+2019-12-24 12:02:52.345 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: 3676524457717449711
+2019-12-24 12:02:52.542 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 3, error: 0, snapshot: 0, requestID: -7770755063100812359
+2019-12-24 12:02:52.719 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -2409877968683880582
+2019-12-24 12:02:52.910 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: 7599253290138227543
+2019-12-24 12:02:53.078 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 8734237882993173685
+2019-12-24 12:02:53.261 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -2744561615266183698
+2019-12-24 12:02:53.431 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 578423489178275705
+2019-12-24 12:02:53.613 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 5155283786158164746
+2019-12-24 12:02:53.794 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: 520985680003951022
+2019-12-24 12:02:53.977 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: -48749040523885232
+2019-12-24 12:02:54.147 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -1123293971645836793
+2019-12-24 12:02:54.325 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: 922922567576947021
+2019-12-24 12:02:54.518 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: 5904290930823079045
+2019-12-24 12:02:54.697 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: -4318630350497913026
+2019-12-24 12:02:54.886 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 3, error: 0, snapshot: 0, requestID: 4265867778335118763
+2019-12-24 12:02:55.085 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: -3695758796671777291
+2019-12-24 12:02:55.263 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 533559270278096612
+2019-12-24 12:02:55.447 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -6867415600426967297
+2019-12-24 12:02:55.645 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 3, error: 0, snapshot: 0, requestID: 1263498850536013110
+2019-12-24 12:02:55.850 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 4402902781010238235
+2019-12-24 12:02:56.035 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -3702975169824415668
+2019-12-24 12:02:56.218 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: -1230699604197776426
+2019-12-24 12:02:56.418 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 1630088939995769620
+2019-12-24 12:02:56.612 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 0, error: 0, snapshot: 0, requestID: 6951638341555807414
+2019-12-24 12:02:56.840 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 3, error: 0, snapshot: 0, requestID: 5732983216321831903
+2019-12-24 12:02:57.031 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -854056786532010096
+2019-12-24 12:02:57.227 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: -2199977668565093351
+2019-12-24 12:02:57.409 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 5791393513559430704
+2019-12-24 12:02:57.593 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 8704689056324259200
+2019-12-24 12:02:57.768 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 4094979330743308600
+2019-12-24 12:02:57.959 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: 1599897692245357696
+2019-12-24 12:02:58.148 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 0, error: 0, snapshot: 0, requestID: 3902573537092043327
+2019-12-24 12:02:58.344 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -760820968184236294
+2019-12-24 12:02:58.534 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -1825365163357404629
+2019-12-24 12:02:58.711 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: -7129960113182923104
+2019-12-24 12:02:58.882 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -5245568750547684368
+2019-12-24 12:02:59.065 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 3103051009734419701
+2019-12-24 12:02:59.252 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 0, error: 0, snapshot: 0, requestID: -3999861523261790343
+2019-12-24 12:02:59.450 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 0, error: 0, snapshot: 0, requestID: 3616725465071571778
+2019-12-24 12:02:59.649 UTC INFO  proc1 944 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: -7954826569140136633
+2019-12-24 12:04:12.124 UTC INFO   983 [agent.AgentKernel] starting up agent kernel [4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe]
+2019-12-24 12:04:12.125 UTC INFO  proc1 983 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:04:12.132 UTC INFO  proc1 983 [agent.ZMQControlTransport] received start node response, size: 1987 bytes
+2019-12-24 12:04:12.135 UTC INFO  proc1 983 [config.ZMQConfigTransport] received config response for request ID -2271240043932712149
+2019-12-24 12:04:12.136 UTC INFO  proc1 983 [config.ConfigChannel] going into INITIALIZED state
+2019-12-24 12:04:12.147 UTC WARN  proc1 983 [agent.ZMQBTInfoTransport] timed out (10000us) waiting for response to -8273227986681094898.  Actual wait time: 12578us
+2019-12-24 12:04:12.147 UTC WARN  proc1 983 [report.TransactionReporter] did not receive BTInfoResponse, not attaching snapshot
+2019-12-24 12:04:12.150 UTC INFO  proc1 983 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 0, error: 0, snapshot: 0, requestID: -8273227986681094898
+2019-12-24 12:04:12.299 UTC INFO  proc1 983 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -3464965575978942049
+2019-12-24 12:04:12.470 UTC INFO  proc1 983 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -6978296097734213199
+2019-12-24 12:04:12.638 UTC INFO  proc1 983 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: -7209007423909222867
+2019-12-24 12:04:12.818 UTC INFO  proc1 983 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: 4054231615933524173
+2019-12-24 12:04:13.095 UTC INFO  proc1 983 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: -1016838026230188141
+2019-12-24 12:04:52.058 UTC INFO   685 [agent.AgentKernel] starting up agent kernel [4.3.8.8GA.13387.9def4845cf076bd7ac3c87a51975d3d94601d6fe]
+2019-12-24 12:04:52.059 UTC INFO  proc1 685 [config.ConfigChannel] sending config request with version -1
+2019-12-24 12:04:52.063 UTC INFO  proc1 685 [agent.ZMQControlTransport] received start node response, size: 1987 bytes
+2019-12-24 12:04:52.254 UTC INFO  proc1 685 [config.ZMQConfigTransport] received config response for request ID 4403080753549551049
+2019-12-24 12:04:52.255 UTC INFO  proc1 685 [config.ConfigChannel] going into INITIALIZED state
+2019-12-24 12:04:52.261 UTC INFO  proc1 685 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -3713700238284065329
+2019-12-24 12:04:52.407 UTC INFO  proc1 685 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -5584023763648734663
+2019-12-24 12:04:52.564 UTC INFO  proc1 685 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 1, error: 0, snapshot: 0, requestID: 503787944678833174
+2019-12-24 12:04:52.743 UTC INFO  proc1 685 [report.TransactionReporter] BT details sent: /select.php[1528029], time: 2, error: 0, snapshot: 0, requestID: -2979052695006774758

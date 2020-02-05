@@ -1,0 +1,5 @@
+http://localhost:8888/my-accounts
+http://localhost:8888/my-accounts/
+http://localhost:8888/my-accounts/index.php
+http://localhost:8888/my-accounts/login-step-one.php
+http://localhost:8888/my-accounts/login-step-two.php

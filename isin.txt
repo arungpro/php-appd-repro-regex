@@ -1,0 +1,10 @@
+http://localhost:8888/abc/def/index.php
+http://localhost:8888/abc/def/xyz.php
+http://localhost:8888/abc/def/
+http://localhost:8888/abc/def
+http://localhost:8888/abc/123/index.php
+http://localhost:8888/abc/123/abc.php
+http://localhost:8888/abc/123/
+http://localhost:8888/abc/123
+http://localhost:8888/abc/index.php
+http://localhost:8888/abc/

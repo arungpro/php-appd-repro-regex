@@ -1,0 +1,18 @@
+FROM mattrayner/lamp:latest-1804
+RUN whoami
+USER root
+RUN whoami
+COPY myphp.php /app
+COPY select.php /app
+RUN usermod -a -G www-data root
+RUN usermod -a -G root www-data
+RUN usermod -a -G staff root
+
+RUN mkdir myspace
+COPY . /myspace
+# install AppDynamics PHP Agent
+ENV APP_AGENT_HOME /myspace/appdynamics-php-agent-x64-linux
+RUN /bin/bash -c 'ls -la ${APP_AGENT_HOME}/logs; chmod -R 755 ${APP_AGENT_HOME}; chown -R root:root ${APP_AGENT_HOME}/logs;ls -la ${APP_AGENT_HOME}/logs'
+RUN ${APP_AGENT_HOME}/install.sh -s -a=dotnetces@90qkwvk6dwz1 --log-dir=/tmp dotnetces.saas.appdynamics.com 443 ArunG php proc1
+RUN cp /etc/php/7.3/cli/conf.d/appdynamics_agent.ini /etc/php/7.3/apache2/conf.d/
+CMD ["/run.sh"]
